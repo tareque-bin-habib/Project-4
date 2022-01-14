@@ -68,7 +68,7 @@ nav{
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 380px;
     background-color: #fff;
-
+    margin-bottom: 2%;
 }
 .banner-image{
     background-image: url('../images/Circle\ design.svg');
@@ -114,7 +114,90 @@ nav{
     width: 70%;
 }
 .banner-image:hover{
-    transform: scale(1.2);
+    transform: scale(0.8);
     transition: .8s ease-in-out;
 }
 
+/*----------------------
+     Logo section 
+-------------------------*/
+.logos{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-left: 10%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 4%;
+}
+.logo img{
+    width :130px;
+    height : 55.28px;
+}
+
+/*---------------------------
+    Top collection section 
+-----------------------------*/
+.popular-collection{
+    width: 80%;
+    background-color: #fff;
+    margin-left: 10%;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.collection{
+    width : 329px;
+    background-color: #fff;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    margin-left: 17%;
+    margin-top: 30px;
+    margin-bottom: 5%;
+}
+.section-title{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
+.thumbnail img{
+    width : 300px;
+    height : 256px;
+    margin-left: 12px;
+    margin-top: 17px;
+}
+.thumbnail-title{
+    font-size: 28px;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.dollar{
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.thumb-star .fas{
+    color:  goldenrod;
+}
+.thumb-star{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.thumb-info{
+    margin-top: 5px;
+    color: #787885;
+}
+.thumbnail-info span{
+    color: #787885;
+}
+.see-more{
+    text-decoration: none;
+    color: #E02C6D;
+    margin-left: 87%;
+    font-size: 19px;
+}
