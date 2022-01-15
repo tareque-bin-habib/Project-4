@@ -55,9 +55,11 @@ nav{
     top: 31px;
 }
 .fa-shopping-cart{
-    position: absolute;
+    /* position: absolute;
     top: 31px;
-    right: 14%;
+    right: 14%; */
+    margin-top: 15px;
+    margin-left: 100%;
 }
 
 /*----------------------
@@ -74,6 +76,7 @@ nav{
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     margin-top: 5%;
+    
 }
 .banner-title{
     font-size: 52px;
@@ -82,10 +85,6 @@ nav{
 }
 .first{
     margin-top: 150px;
-}
-.second{
-    position: absolute;
-    top: 260px;
 }
 .banner-details{
     font-size: 16px;
@@ -113,10 +112,10 @@ nav{
 .banner-image img{
     width: 70%;
 }
-.banner-image:hover{
+ .banner-image:hover{
     transform: scale(0.8);
     transition: .8s ease-in-out;
-}
+} 
 
 /*----------------------
      Logo section 
@@ -158,6 +157,9 @@ nav{
     margin-left: 17%;
     margin-top: 30px;
     margin-bottom: 5%;
+}
+.collection{
+    margin-left: 0px;
 }
 .section-title{
     font-size: 28px;
@@ -232,6 +234,7 @@ nav{
 /*-------------------------- 
          Footer
 ------------------------- */
+
 footer{
     width: 100%;
     height: 250px;

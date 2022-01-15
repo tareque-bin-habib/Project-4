@@ -1,0 +1,413 @@
+/* Mobile Device */
+@media only screen and (max-width: 688px) {
+/*-------------------
+      Nav Section
+--------------------- */
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-icon{
+         margin-top: 10px;
+        font-size: 13px;
+         margin-left: 17%;
+        
+    }
+}
+ @media only screen and (max-width: 530px) {
+    nav{
+        height: 50px;
+    }
+    .nav-icon{
+        font-size: 10px;
+        margin-left: 13%;
+        margin-top: 2px
+    }
+}
+@media only screen and (max-width: 470px) {
+    .nav-icon{
+        font-size: 8px;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .nav-icon{
+        font-size: 7px;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 335px) {
+    .nav-icon{
+        font-size: 7px;
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    nav{
+        height: 40px;
+    }
+    .nav-icon{
+        font-size: 5px;
+        margin-left: 0%;
+    }
+} 
+
+/*-------------------
+    Banner Section
+--------------------- */
+@media only screen and (max-width: 688px) {
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-title{
+        margin-top: 20px;
+        font-size: 35px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .banner-details{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner-button{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;   
+    }
+    .banner-image{
+        display: flex;
+        justify-content: center;
+        background-image: none;
+    }
+    .banner-image img{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .banner-title{
+        font-size: 25px;
+    }
+    .banner-details{
+        font-size: 10px;
+    }
+    .banner-button{
+        padding: 10px;
+    }
+    .banner-image img{
+        width: 70%;
+    }
+}
+
+/*----------------------
+         Logo Section 
+-------------------------*/
+@media only screen and (max-width: 688px) {
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border-bottom: none;
+        border-top: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .logo img{
+        width: 40%;
+    }
+}
+
+/*-------------------
+   Popular Collection
+-------------------- */
+@media only screen and (max-width: 688px) {
+    .popular-collection{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr
+        );
+        grid-row-gap: 0;
+        margin-left: 21%;
+    }
+    .thumbnail img{
+        height: 200px;
+    }
+    .thumbnail-title{
+        font-size: 23px;
+    }
+    .dollar{
+        font-size: 15px;
+    }
+    .thumb-star .fas{
+        font-size: 10px;
+    }
+    .thumb-info{
+        font-size: 10px;
+    }
+    .see-more{
+        margin-left: 55%;
+    }
+
+}
+@media only screen and (max-width: 460px) {
+    .collections{
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .collections{
+        margin-left: 11%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .collections{
+        margin-left: 9%;
+    }
+}@media only screen and (max-width: 380px) {
+    .collections{
+        margin-left: 12%;
+    }
+    .collection{
+        width: 280px;
+    }
+    .thumbnail img{
+        width: 250px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .collections{
+        margin-left: 7%;
+    }
+}
+
+/*----------------
+- Extra Photos Section 
+----------------------*/
+@media only screen and (max-width: 688px) {
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .photo img{
+        width: 70%;
+       
+    }
+    .photo{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+}
+/*----------------
+ Footer Section 
+ -----------------*/
+ @media only screen and (max-width: 688px) {
+    footer{
+        height: 200px;
+        width: 100%;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    .social{
+        margin-left: 30%;
+        width: 50%;
+    }
+    .social .fab{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+ }
+/*--------------------
+      Nav Section
+---------------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .nav-icon{
+        font-size: 13px;
+    }
+    .nav-menu ul{
+        margin-left: 2%;
+    }
+    .nav-menu li a{
+        font-size: 12px;
+    }
+    .fix{
+        font-size: 13px;
+    }
+    .fa-search{
+        top: 35px;
+    }
+    .fa-shopping-cart{
+        margin-top: 19px;
+    }
+}
+ /* Banner section */
+ @media only screen and (min-width: 688px) and (max-width: 992px) {
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0px;
+    }
+    .banner-title{
+        font-size:  25px;
+        margin-top: 10px;
+    }
+    .banner-details{
+        font-size: 10px;
+    }
+    .banner-button{
+        font-size: 8px;
+    }
+    .banner-image img{
+        margin-left: 10%;
+    }
+}   
+/*------------------
+   Logo section
+------------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(2,  1fr);
+        grid-column-gap: 50%;
+        grid-row-gap: 5%;
+        border-bottom: none;
+        border-top: none;
+    }
+}
+/*-----------------
+ Top Collection
+ ------------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .see-more{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    /* footer section */
+    footer{
+        height: 200px;
+    }
+    .social{
+        margin-left: 30%;
+        width: 40%
+    }
+    .social .fab{
+        font-size: 10px;
+    }
+}
+   /*----------------
+   -- banner section 
+   -------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1312px) {
+ 
+    .banner-title{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .banner-details{
+        font-size: 10px;
+        margin-top: 10px
+    }
+    .banner-image img{
+        width: 70%;
+        margin-left: 5%;
+    }
+    .banner-button{
+        font-size: 10px
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1175px) {
+    .banner-title{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .banner-image img{
+        width: 60%;
+    }
+    .banner-button{
+        font-size: 8px;
+    }
+}
+/*-------------------
+ Logo section 
+ -----------------*/
+@media only screen and (min-width: 992px) and (max-width: 1312px) {
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .logo{
+        margin-top: 5%;
+    }
+}
+/*---------------------
+  Popular Collection
+  --------------------- */
+@media only screen and (min-width: 992px) and (max-width: 1180px) {
+    .popular-collection{
+        margin-left: 0%;
+    }
+    .collections{
+        display: grid;
+        grid-column-gap: 0%;
+        margin-left: 0px;
+    }
+    .social{
+        font-size: 15px;
+        width: 30%;
+        margin-left: 33%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1312px) {
+    .social{
+        margin-left: 35%;
+    }
+}
+/*----------------
+   Banner Section
+   ------------- */
+ @media only screen and (min-width: 1312px) and (max-width: 1736px) {
+    .banner-title{
+        font-size: 45px;
+        margin-top: 70px;
+    }
+    .banner-image img{
+        width: 65%;
+    }
+}
+@media only screen and (min-width: 1312px) and (max-width: 1453px){
+    .banner-title{
+        font-size: 35px;
+    }
+    .banner-details{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .banner-button{
+        font-size: 13px;
+    }
+}
